@@ -1,0 +1,23 @@
+{
+    "name": "abinadi/phaser-preset",
+    "description": "A Laravel preset for working with phaser desktop and mobile html5 game framework.",
+    "keywords": ["laravel", "laravel preset", "phaser"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Abinadi Ayerdis",
+            "email": "abinadi@ayerdis.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Phaser\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Phaser\\PhaserServiceProvider"]
+        }
+    }
+}
