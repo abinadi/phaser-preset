@@ -24,7 +24,6 @@ class PhaserPreset extends Preset
     public static function updatePackageArray($packages)
     {
         return array_merge([
-            'laravel-mix-tailwind' => '^1.0',
             'phaser' => '^3.18.1'
         ], Arr::except($packages, [
             'popper.js',
