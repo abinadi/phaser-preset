@@ -10,7 +10,7 @@ class PhaserPreset extends Preset
 {
     public static function install()
     {
-        static::cleanSassDirectory();
+        //static::cleanSassDirectory();
         static::updatePackages();
         static::updateMix();
         static::updateScripts();
